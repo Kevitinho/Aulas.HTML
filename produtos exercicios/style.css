@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header >h4{
+    padding: 1rem 2rem;
+    color:red;
+
+}
+body {
+    background-color: rgb(29, 27, 27);
+    color: aqua;
+}
+.header-content {
+    background-image: url("https://assets.xboxservices.com/assets/ce/06/ce06a8b6-9c78-400e-a731-40a57bc6de14.jpg?n=Cloud-Gaming_Page-Hero-0_B4B_767x431.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.texto {
+ 
+}
+.logo {
+    width: 100%;    
+}
+#contato{
+    justify-content: center;
+    padding: .7rem 1.4rem;
+    font-size: 20px;
+    background-color: rgb(240, 29, 29);
+    color: rgb(250, 246, 246);
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: .5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.produtos{
+    display: flex;
+    justify-content: space-around;     
+}
+.produtos ul li a {
+    justify-content: center;
+}
